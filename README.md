@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Fellippemfv/rocketseat-react-challange-3">
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fellippemfv/rocketseat-react-challange-3">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Fellippemfv/rocketseat-react-challange-3?color=red">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Fellippemfv/rocketseat-react-challange-3?color=yellow">
   
