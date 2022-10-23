@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { api } from "../../lib/axios";
 import { IPost } from "../Blog";
-import { PostContent } from "./components/PostContent";
+import PostContent from "./components/PostContent";
 import { PostHeader } from "./components/PostHeader";
 
 const username = import.meta.env.VITE_GITHUB_USERNAME;
@@ -26,11 +26,11 @@ export function Post() {
     } finally {
       setIsLoading(false);
     }
-  }, [postData]);
+  }, [id]);
 
   useEffect(() => {
     getPostDetails();
-  }, []);
+  }, [getPostDetails]);
 
   return (
     <>
