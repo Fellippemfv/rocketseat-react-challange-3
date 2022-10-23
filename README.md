@@ -86,7 +86,15 @@ $ npm run lint
 $ npm run lint:fix
 ```
 
-Se quiser ver informções em tela vai precisar criar um repositorio no seu github usando este como base, criar issues para usarmos como artigos no formato de titulo, subtitulo e o conteudo. Depois coloque uma label chamada "Published" em cada issue criada. Por fim colocar suas informações do github no arquivo ".env".
+Se quiser ver informções em tela vai precisar:
+
+- Criar um repositorio no seu github usando este como base; 
+
+- Criar issues para usarmos como artigos no formato de titulo e conteudo;
+
+- Depois coloque uma label chamada "Published" em cada issue criada;
+
+- Por fim colocar suas informações do github no arquivo ".env";
 
 ## :memo: Licença
 
